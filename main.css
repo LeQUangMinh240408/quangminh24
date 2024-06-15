@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+body{
+    background-image: url(./img/istockphoto-1367756031-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    text-align: center;
+}
+#truyendecu{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nut{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#products1 {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    padding: 2.5em 0;
+}
+  
+#products1 .card {
+    max-width: 16em;
+    padding: 2em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.7s;
+}
+
+#products1 .card:hover{
+    transform: translateY(-0.1in);
+}
+
+#products1 .card .image-container {
+    text-align: left;
+}
+
+#products1 .card .image-container img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 10em;
+    box-shadow: 1em 2em 2.5em rgb(255, 255, 255);
+}
+
+#products1 .card .container {
+    padding-top: 2em;
+    color: #000000;
+}
+
+#products1 .card .container a {
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+#products1 .card .container h6 {
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+#products1 .card .container button{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border: solid 3px rgb(0, 0, 0);
+    margin-top: 14px;
+    padding: 6px 0px;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.7s;
+  color: #000000;
+}
+
+#products1 .card .container button:hover{
+    background-color: rgb(255, 51, 51);
+    color: rgb(255, 255, 255);
+ 
+}
+
+.hide {
+    display: none;
+}
