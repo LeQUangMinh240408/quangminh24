@@ -27,7 +27,7 @@ loginGG.addEventListener('click',function(){
       const credential = GoogleAuthProvider.credentialFromResult(result);
       const token = credential.accessToken;
       const user = result.user;
-      window.location.href = "/main.html"
+      window.location.href = "/index.html"
     }).catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
